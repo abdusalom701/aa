@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 20px;
+}
+.alar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.alar a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    width: 100%;
+    height: 800px;
+    background: #1c222e;
+}
+a:hover{
+    color: #1154db;
+}
+main{
+    color: white;
+    width: 770px;
+    position: absolute;
+    top: 25%;
+}
+main h1{
+    font-size: 270%;
+}
+main h2{
+    font-size: 170%;
+}
+main h3{
+    font-size: 170%;
+}
+main button{
+    width: 27%;
+    height: 30px;
+    border-radius: 30px;
+    background-color:  #00EEFF;
+}
+.zet{
+    position: absolute;
+    left: 60%;
+    top: -1%;
+}
+@media(max-width: 800px){
+    main h1{
+        font-size: 240%;
+    }
+    main h2{
+        font-size: 140%;
+    }
+    main h3{
+        font-size: 140%;
+    }
+    .alar a{
+        display: none;
+    }
+    .div button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    main{
+        text-align: center;
+    }
+    main h1{
+        font-size: 200%;
+    }
+    main h2{
+        font-size: 100%;
+    }
+    main h3{
+        font-size: 100%;
+    }
+    .zet{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
