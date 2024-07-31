@@ -82,4 +82,137 @@ main button{
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
+.section2{
+    background: #323946;
+
+}
+.card{
+    width: 319.34px;
+height: 280px;
+text-align: center;
+background: #1F242D;
+border-radius: 40px;
+color: white;
+}
+.cards{
+    width: 319.34px;
+height: 280px;
+text-align: center;
+background: #1F242D;
+border-radius: 40px;
+color: white;
+}
+.card button{
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #00EEFF;
+}
+.cards button{
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #00EEFF;
+}
+.section2 h1{
+    text-align: center;
+    color: white;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1 {
+    position: absolute;
+    top: 790px;
+}
+@media(max-width:1000px){
+    .card{
+        width: 268.34px;
+    height: 337px;
+    text-align: center;
+    background: #1F242D;
+    border-radius: 40px;
+    color: white;
+    }
+}
+@media(max-width:500px){
+    main{
+        width: 268.34px;
+    height: 337px;
+    text-align: center;
+    background: #1F242D;
+    border-radius: 40px;
+    color: white;
+    }
+     .zet img{
+        flex-direction: column;
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+    .cards button{
+        width: 170px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #00EEFF;
+    }
+    .cards{
+        width: 319.34px;
+    height: 280px;
+    text-align: center;
+    background: #1F242D;
+    border-radius: 40px;
+    color: white;
+    }
+}
+.lne .hla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    
+}
+.lar{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+.ladrf{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+.ladf{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+.ladd{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+.ladt{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+.ladw{
+    width: 200px;
+    height: 150px;
+    background: #323946;
+}
+footer{
+    background-color: #1c222e;
+}
+
